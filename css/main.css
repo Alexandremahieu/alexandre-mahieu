@@ -40,6 +40,21 @@ body {
     -webkit-overflow-scrolling: touch;
 }
 
+h5 {
+    font-size: 1.5em;
+}
+.font-change {
+    padding-top: 30px;
+}
+
+.p-center {
+    text-align: center;
+}
+
+.desc {
+	padding-top: 50px;
+}
+
 /* Header Wrap */
 #headerwrap {
 	margin-top: 10px;
@@ -47,7 +62,7 @@ body {
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 500px;
+	min-height: 200px;
 	width: 100%;
 
     -webkit-background-size: 100%;
