@@ -1,15 +1,79 @@
 @media screen and (max-width : 768px) {
-    h5 {
+    h1 {
+      	color: #0F4142;
+        font-family: cursive;
+        font-size: 2em;
+        font-weight: bold;
+        padding-top: 50px;
         text-align: center;
+    }
+    h2 {
+        color: #107275;
+        font-size: 1.5em;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: underline;
+    }
+    h3 {
+        color: #07080B;
+        font-size: 1.25em;
+        text-align: center;
+    }
+    h4 {
+        color: #0F4142;
+        font-size: 1em;
+        text-align: center;
+    }
+    p {
+        margin-left: 5px;
+        margin-right: 5px;
+        text-align: center;
+    }
+    a {
+        color: #890E00;
+    }
+    strong {
+    }
+    em {
     }
     img {
         width: 50px;
     }
+    .desc {
+        padding-top: 35px;
+    }
 }
 
 @media screen and (min-width : 769px) and (max-width: 992px) {
-    h5 {
+    h1 {
+      	color: blue;
+        font-family: cursive;
+        font-size: 2em;
+        font-weight: bold;
         text-align: center;
+    }
+    h2 {
+        font-size: 1.5em;
+        text-decoration: underline;
+        font-weight: bold;
+        padding-top: 25px;
+        padding-left: 10px;
+        text-align: left;;
+        text-decoration: underline;
+    }
+    h3 {
+        font-size: 1.25em;
+        text-align: left;
+    }
+    h4 {
+        font-size: 1em;
+    }
+    a {
+        color: blue;
+    }
+    strong {
+    }
+    em {
     }
     img {
         width: 100px;
@@ -17,53 +81,95 @@
 }
 
 @media screen and (min-width : 993px) and (max-width: 1200px) {
+    h1 {
+      	color: blue;
+        font-family: cursive;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.5em;
+        text-decoration: underline;
+        font-weight: bold;
+        padding-top: 25px;
+        padding-left: 10px;
+        text-align: left;;
+        text-decoration: underline;
+    }
+    h3 {
+        font-size: 1.25em;
+        text-align: left;
+    }
+    h4 {
+        font-size: 1em;
+    }
+    a {
+        color: blue;
+    }
+    strong {
+    }
+    em {
+    }
     img {
         width: 150px;
     }
 }
 
 @media screen and (min-width : 1201px) {
+    h1 {
+      	color: blue;
+        font-family: cursive;
+        font-size: 2em;
+        font-weight: bold;
+        text-align: center;
+    }
+    h2 {
+        font-size: 1.5em;
+        text-decoration: underline;
+        font-weight: bold;
+        padding-top: 25px;
+        padding-left: 10px;
+        text-align: left;;
+        text-decoration: underline;
+    }
+    h3 {
+        font-size: 1.25em;
+        text-align: left;
+    }
+    h4 {
+        font-size: 1em;
+    }
+    a {
+        color: blue;
+    }
+    strong {
+    }
+    em {
+    }
     img {
         width: 175px;
     }
 }
 
 body {
-    background-color: #DEF2F9;
-    margin-left: 2%;
-    margin-right: 2%;
+    background-color: #87A598;
+    color: #07080B;
+    font-family: fantasy;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
-
-h5 {
-    font-size: 1.5em;
-    text-align: center;
-}
-
-.font-change {
-    padding-top: 30px;
-    text-align: left;
-}
-
 .p-center {
     text-align: center;
 }
 
-.desc {
-	padding-top: 50px;
-}
-
-/* Header Wrap */
 #headerwrap {
-	margin-top: 20px;
-	padding-top:110px;
+    padding-left: 5px;
+    padding-right: 5px;
 	text-align:center;
 	background-attachment: relative;
 	background-position: center center;
-	min-height: 250px;
-	width: 100%;
 
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -76,12 +182,20 @@ h5 {
     background-size: cover;
 }
 
-#headerwrap h1 {
-  font-weight: bold;
-	color: #FFAF50;
+#footwrap {
+    background-color: #07080B;
+    padding-bottom: 50px;
 }
 
-#headerwrap h2 {
-	font-weight: bold;
-	color: #FFAF50;
+#footwrap p {
+    color: white;
+}
+#footwrap h3 {
+    color: white;
+}
+
+.navbar-toggle {
+    width: 100%;
+    float: none;
+    margin-right: 0;
 }
