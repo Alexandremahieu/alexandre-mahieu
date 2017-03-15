@@ -199,3 +199,6 @@ body {
     float: none;
     margin-right: 0;
 }
+.img-rad {
+    border-radius: 15%;
+}
