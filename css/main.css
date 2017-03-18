@@ -1,95 +1,109 @@
-@media screen and (max-width : 767px) {
-    h1 {
-      	color: #0F4142;
-        font-family: cursive;
-        font-size: 2.5em;
-        font-weight: bold;
-        padding-top: 50px;
-        text-align: center;
-    }
-    h2 {
-      	color: #0F4142;
-        font-family: cursive;
-        font-size: 2.5em;
-        font-weight: bold;
-        padding-top: 50px;
-        text-align: center;
-    }
-    h3 {
-        color: #107275;
-        font-size: 2em;
-        font-style: italic;
-        font-weight: bold;
-        text-align: center;
-        text-decoration: underline;
-    }
-    h4 {
-        color: #07080B;
-        font-size: 1.25em;
-        text-align: center;
-    }
-    h5 {
-        color: #0F4142;
-        font-size: 1em;
-        text-align: center;
-    }
-    p {
-        text-align: center;
-    }
-    a {
-        color: #890E00;
-    }
-    img {
-        width: 50px;
-    }
-    .desc {
-        padding-top: 35px;
-    }
-    .container {
-        padding-bottom: 20px;
-    }
-    .row {
-        padding-bottom: 30px;
-    }
-    #footwrap {
-        background-color: #07080B;
-        padding-bottom: 275px;
-    }
-    #footwrap h3 {
-        padding-bottom: 50px;
-}
-    .icon-soc {
-        font-size: 30px;
-        text-align: center;
-        padding-bottom: 55px;
-    }
-}
-
-@media screen and (min-width : 768px) and (max-width: 991px) {
-
-}
-
-@media screen and (min-width : 992px) and (max-width: 1999px) {
-
-}
-
-@media screen and (min-width : 1200px) {
-
-}
-
 body {
-    background-color: #87A598;
+    background-color: #8EA5BE;
     color: #07080B;
     font-family: fantasy;
-    width: 100%;
 
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
+h1 {
+    font-size: 2.5em;
+    color: #3C585A;
+    font-family: cursive;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+}
+h2 {
+    font-size: 2.25em;
+    color: #3C585A;
+    font-family: cursive;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+}
+h3 {
+    color: #107275;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 2em;
+}
+#footwrap h3 {
+    padding-bottom: 50px;
+}
+h4 {
+    color: #0F4142;
+    font-weight: bolder;
+    text-align: left;
+    font-size: 1.50em;
+}
+#footwrap h4 {
+    color: #5D9460;
+    text-align: center;
+    font-size: 1em;
+}
+h5 {
+    color: #0F4142;
+    text-align: left;
+    font-style: italic;
+    font-size: 1.25em;
+    min-height: 2.5em;
+}
+p {
+    color: #07080B;
+    text-align: left;
+}
 .p-center {
     text-align: center;
 }
-
+img {
+    width: 50px;
+    border-radius: 15%;
+}
+@media screen and (min-width : 768px) and (max-width: 991px) {
+    img {
+        width: 100px;
+    }
+}
+@media screen and (min-width : 992px) and (max-width: 1999px) {
+    img {
+        width: 100px;
+    }
+}
+@media screen and (min-width : 1200px) {
+    img {
+        width: 100px;
+    }
+}
+.icon-soc {
+    text-align: center;
+}
+a {
+    color: #00B252;
+}
+#footwrap a {
+    font-size: 2.5em;
+}
+#footwrap {
+    padding-bottom: 100px;
+    background-color: #222325;
+}
+@media screen and (min-width : 768px) and (max-width: 991px) {
+    #footwrap {
+        padding-bottom: 300px;
+    }
+}
+@media screen and (min-width : 992px) and (max-width: 1999px) {
+    #footwrap {
+        padding-bottom: 300px;
+    }
+}
+@media screen and (min-width : 1200px) {
+    #footwrap {
+        padding-bottom: 300px;
+    }
+}
 #headerwrap {
 	text-align:center;
 	background-attachment: relative;
@@ -105,20 +119,21 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
- .padding-div {
-     padding-top: 30px;
- }
-#footwrap p {
-    color: white;
+.container {
+    padding-bottom: 20px;
 }
-#footwrap h4 {
-    color: white;
+.row {
+    padding-bottom: 30px;
+    text-align: center;
+}
+.desc {
+    padding-top: 35px;
 }
 .navbar-toggle {
     width: 100%;
     float: none;
     margin-right: 0;
 }
-.img-rad {
-    border-radius: 15%;
+.padd-bott {
+    padding-bottom: 50px;
 }
