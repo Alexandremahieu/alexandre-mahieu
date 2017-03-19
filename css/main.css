@@ -29,7 +29,6 @@ h1 {
         font-size: 4em
     }
 }
-
 h2 {
     font-size: 2.25em;
     color: #3C585A;
@@ -50,7 +49,7 @@ h2 {
 }
 @media screen and (min-width : 1200px) {
     h2 {
-        font-size: 4.25em
+        font-size: 3.75em
     }
 }
 h3 {
@@ -61,18 +60,18 @@ h3 {
     font-size: 2em;
 }
 @media screen and (min-width : 768px) and (max-width: 991px) {
-    h1 {
-        font-size: 3.5em
+    h3 {
+        font-size: 2.5em
     }
 }
 @media screen and (min-width : 992px) and (max-width: 1999px) {
-    h1 {
-        font-size: 4em
+    h3 {
+        font-size: 3em
     }
 }
 @media screen and (min-width : 1200px) {
-    h1 {
-        font-size: 4.5em
+    h3 {
+        font-size: 3.5em
     }
 }
 #footwrap h3 {
@@ -85,17 +84,17 @@ h4 {
     font-size: 1.50em;
 }
 @media screen and (min-width : 768px) and (max-width: 991px) {
-    h1 {
+    h4 {
         font-size: 2em
     }
 }
 @media screen and (min-width : 992px) and (max-width: 1999px) {
-    h1 {
+    h4 {
         font-size: 2.5em
     }
 }
 @media screen and (min-width : 1200px) {
-    h1 {
+    h4 {
         font-size: 3em
     }
 }
@@ -110,6 +109,21 @@ h5 {
     font-style: italic;
     font-size: 1.25em;
     min-height: 2.5em;
+}
+@media screen and (min-width : 768px) and (max-width: 991px) {
+    h5 {
+        font-size: 1.75em
+    }
+}
+@media screen and (min-width : 992px) and (max-width: 1999px) {
+    h5 {
+        font-size: 2.25em
+    }
+}
+@media screen and (min-width : 1200px) {
+    h5 {
+        font-size: 2.75em
+    }
 }
 p {
     color: #07080B;
@@ -127,7 +141,7 @@ p {
 }
 @media screen and (min-width : 1200px) {
     p {
-        font-size: 1.8em;
+        font-size: 2em;
     }
 }
 .p-center {
@@ -156,7 +170,7 @@ img {
     text-align: center;
 }
 a {
-    color: #00B252;
+    color: #04B404;
 }
 #footwrap a {
     font-size: 2.5em;
