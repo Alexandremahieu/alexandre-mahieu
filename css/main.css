@@ -87,15 +87,24 @@ h4 {
     h4 {
         font-size: 2em
     }
+    #footwrap h4 {
+        font-size: 1.5em;
+    }
 }
 @media screen and (min-width : 992px) and (max-width: 1999px) {
     h4 {
         font-size: 2.5em
     }
+    #footwrap h4 {
+        font-size: 2em;
+    }
 }
 @media screen and (min-width : 1200px) {
     h4 {
         font-size: 3em
+    }
+    #footwrap h4 {
+        font-size: 2.5em;
     }
 }
 #footwrap h4 {
@@ -173,7 +182,7 @@ a {
     color: #AEB404;
 }
 #footwrap a {
-    font-size: 2.5em;
+    font-size: 3em;
 }
 #footwrap {
     padding-bottom: 100px;
