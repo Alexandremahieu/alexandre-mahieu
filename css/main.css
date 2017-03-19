@@ -14,6 +14,22 @@ h1 {
     padding-top: 50px;
     text-align: center;
 }
+@media screen and (min-width : 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 3em
+    }
+}
+@media screen and (min-width : 992px) and (max-width: 1999px) {
+    h1 {
+        font-size: 3.5em
+    }
+}
+@media screen and (min-width : 1200px) {
+    h1 {
+        font-size: 4em
+    }
+}
+
 h2 {
     font-size: 2.25em;
     color: #3C585A;
@@ -22,12 +38,42 @@ h2 {
     padding-top: 50px;
     text-align: center;
 }
+@media screen and (min-width : 768px) and (max-width: 991px) {
+    h2 {
+        font-size: 2.75em
+    }
+}
+@media screen and (min-width : 992px) and (max-width: 1999px) {
+    h2 {
+        font-size: 3.25em
+    }
+}
+@media screen and (min-width : 1200px) {
+    h2 {
+        font-size: 4.25em
+    }
+}
 h3 {
     color: #107275;
     font-style: italic;
     font-weight: bold;
     text-decoration: underline;
     font-size: 2em;
+}
+@media screen and (min-width : 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 3.5em
+    }
+}
+@media screen and (min-width : 992px) and (max-width: 1999px) {
+    h1 {
+        font-size: 4em
+    }
+}
+@media screen and (min-width : 1200px) {
+    h1 {
+        font-size: 4.5em
+    }
 }
 #footwrap h3 {
     padding-bottom: 50px;
@@ -37,6 +83,21 @@ h4 {
     font-weight: bolder;
     text-align: left;
     font-size: 1.50em;
+}
+@media screen and (min-width : 768px) and (max-width: 991px) {
+    h1 {
+        font-size: 2em
+    }
+}
+@media screen and (min-width : 992px) and (max-width: 1999px) {
+    h1 {
+        font-size: 2.5em
+    }
+}
+@media screen and (min-width : 1200px) {
+    h1 {
+        font-size: 3em
+    }
 }
 #footwrap h4 {
     color: #5D9460;
@@ -54,6 +115,21 @@ p {
     color: #07080B;
     text-align: left;
 }
+@media screen and (min-width : 768px) and (max-width: 991px) {
+    p {
+        font-size: 1.2em;
+    }
+}
+@media screen and (min-width : 992px) and (max-width: 1999px) {
+    p {
+        font-size: 1.5em;
+    }
+}
+@media screen and (min-width : 1200px) {
+    p {
+        font-size: 1.8em;
+    }
+}
 .p-center {
     text-align: center;
 }
@@ -65,24 +141,15 @@ img {
     img {
         width: 100px;
     }
-    p {
-        font-size: 1.2em;
-    }
 }
 @media screen and (min-width : 992px) and (max-width: 1999px) {
     img {
         width: 100px;
     }
-    p {
-        font-size: 1.5em;
-    }
 }
 @media screen and (min-width : 1200px) {
     img {
         width: 100px;
-    }
-    p {
-        font-size: 1.8em;
     }
 }
 .icon-soc {
