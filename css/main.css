@@ -65,15 +65,24 @@ img {
     img {
         width: 100px;
     }
+    p {
+        font-size: 1.2em;
+    }
 }
 @media screen and (min-width : 992px) and (max-width: 1999px) {
     img {
         width: 100px;
     }
+    p {
+        font-size: 1.5em;
+    }
 }
 @media screen and (min-width : 1200px) {
     img {
         width: 100px;
+    }
+    p {
+        font-size: 1.8em;
     }
 }
 .icon-soc {
